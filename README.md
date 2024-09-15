@@ -44,7 +44,7 @@ Corsinator is a simple Flask-based proxy server designed to handle Cross-Origin 
 
 3. **Configure the target URL:**
 
-   Edit the `TARGET_URL` variable in `app.py` to point to your target API:
+   Edit the `TARGET_URL` variable in `main.py` to point to your target API:
 
    ```python
    TARGET_URL = 'https://api.example.com/api/v1'
@@ -53,7 +53,7 @@ Corsinator is a simple Flask-based proxy server designed to handle Cross-Origin 
 4. **Run the Corsinator server:**
 
    ```bash
-   python app.py
+   python main.py
    ```
 
    The server will start on `http://localhost:8080`.
