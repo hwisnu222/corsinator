@@ -1,8 +1,10 @@
 <h3 align="center">Corsinator</h3>
 
+<div align="center">
 ![License](https://img.shields.io/github/license/hwisnu222/corsinator)
 ![Version](https://img.shields.io/github/v/release/hwisnu222/corsinator)
 ![Issues](https://img.shields.io/github/issues/hwisnu222/corsinator)
+</div>
 
 Corsinator is a simple Flask-based proxy server designed to handle Cross-Origin Resource Sharing (CORS) issues by forwarding HTTP requests to a target API. It supports `GET`, `POST`, `PUT`, and `DELETE` methods and handles CORS headers to facilitate cross-origin interactions.
 
