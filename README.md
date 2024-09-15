@@ -1,9 +1,8 @@
-<h3 align="center">Corsinator</h3>
+<h1 align="center">CORSINATOR</h1>
 
 <div align="center">
-![License](https://img.shields.io/github/license/hwisnu222/corsinator)
-![Version](https://img.shields.io/github/v/release/hwisnu222/corsinator)
-![Issues](https://img.shields.io/github/issues/hwisnu222/corsinator)
+<a href="https://flask.palletsprojects.com/"><img src="https://img.shields.io/badge/framework-flask-green" height="20"></a>
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/language-python-blue" height="20"></a>
 </div>
 
 Corsinator is a simple Flask-based proxy server designed to handle Cross-Origin Resource Sharing (CORS) issues by forwarding HTTP requests to a target API. It supports `GET`, `POST`, `PUT`, and `DELETE` methods and handles CORS headers to facilitate cross-origin interactions.
@@ -109,7 +108,7 @@ You can test the Corsinator server using tools like `curl` or Postman, or by mak
 ## Troubleshooting
 
 - Ensure the Corsinator server is running before making requests from the React app.
-- Verify that the target URL is correctly configured in `app.py`.
+- Verify that the target URL is correctly configured in `main.py`.
 - Check console logs and network activity for errors.
 
 ## License
