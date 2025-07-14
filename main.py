@@ -1,9 +1,14 @@
 from flask import Flask, request, Response
 import requests
+from dotenv import load_dotenv
+load_dotenv()
+import os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
-TARGET_URL = 'https://api.example.com/api/v1'
+TARGET_URL = os.getenv("TARGET_URL")
 
 @app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE'])
 def proxy(path):
